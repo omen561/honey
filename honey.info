@@ -1,0 +1,15 @@
+
+name = honey
+description = HONEY
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = css/style.css
+
+
+;scripts[] = js/jquery.bgiframe.min.js
+
+; Information added by drupal.org packaging script on 2012-03-28
+version = "6.x-1.13"
+core = "6.x"
+

@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+a img {
+    border: none;
+}
+.wrap-container {
+    width: 980px;
+    margin: 0 auto;
+}
+.column {
+    float: left;
+    position: relative;
+}
+header {
+    width: 100%;
+    height: 88px;
+    position: relative;
+    z-index: 100;
+    background: url(../images/header-bg.png) repeat-x;
+}
+#logo {
+    display: block;
+    width: 194px;
+    height: 45px;
+    margin-top: 12px;
+}
+header .menu {
+    margin-top: 25px;
+    margin-left: 68px;
+}
+#main-menu {
+    list-style: none;
+
+}
+#main-menu li {
+    float: left;
+    margin-right: 4px;
+}
+#main-menu li a {
+    padding: 12px 10px;
+    font: bold 12px 'Myriad Pro', Arial;
+    color: #393833;
+    text-decoration: none;
+}
+#main-menu li:hover a {
+    background: #2b2a23;
+    color: #ffe12a;
+}
+.header-cart-block {
+    margin-top: 14px;
+}
+.header-cart-block  .title a {
+    display: block;
+    padding: 12px 10px;
+    font: bold 12px 'Myriad Pro', Arial;
+    color: #393833;
+    text-decoration: none;
+}
+.header-cart-block:hover  .title a {
+    background: #2b2a23;
+    color: #ffe12a;
+}
+.header-cart-block  .title a span {
+    display: inline-block;
+    background: #393833;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.header-cart-block  .description {
+    display: none;
+    position: absolute;
+    padding-top: 5px;
+    background: #493f0c;
+    color: #fff;
+    width: 96px;
+    font: 12px 'Myriad Pro', Arial;
+}
+.header-cart-block:hover  .description {
+    display: block;
+}
+.header-cart-block  .description .cart-empty {
+    padding: 15px 10px 10px;
+    background: #2b2a23;
+    width: 170px;
+}
+.header-cart-block  .description .cart-quantity {
+    padding: 15px 10px 5px;
+    background: #2b2a23;
+    width: 170px;
+}
+.header-cart-block  .description .cart-summ {
+    padding: 5px 10px 10px;
+    background: #2b2a23;
+    width: 170px;
+}
+.header-cart-block .cart-links li a {
+    display: block;
+    padding: 10px 10px 10px;
+    background: #555;
+    color: #fff;
+    text-decoration: none;
+    width: 170px;
+}
+.header-cart-block .cart-links li a:hover {
+    background: #777;
+}
+.header-link {
+    display: block;
+    margin-top: 16px;
+    padding: 12px 10px;
+    font: bold 12px 'Myriad Pro', Arial;
+    color: #393833;
+    text-decoration: none;
+    position: relative;
+}
+#header-call-link {
+    background: #e9c510;
+    margin-left: 32px;
+    padding-right: 15px;
+}
+#header-call-link:before {
+    position: absolute;
+    width: 0;
+    right: 0;
+    bottom: -23px;
+    height: 1px;
+    content: '';
+    border: 15px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 12px solid #e9c510;
+}
+#header-order-link-box {
+    margin-left: 15px;
+    margin-top: 16px;
+    width: 99px;
+    height: 39px;
+    display: block;
+    background: url(../images/bg-red-orange.jpg);
+    -webkit-transition: 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+    -ms-transition: 0.1s linear;
+    transition: 0.1s linear;
+}
+#header-order-link {
+    font: bold 12px 'Myriad Pro', Arial;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 28px;
+    left: 35px;
+}
+header .column.last:hover  #header-order-link-box{
+    width: 105px;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 13px;
+}
+#front-slider {
+    margin-top: -10px;
+    height: 380px;
+    width: 100%;
+    background: url(../images/front-slider-bg.jpg);
+}
+#front-slider ul {
+    list-style: none;
+}
+#front-slider ul li img {
+    margin-top: 20px;
+}
+#promotions {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+    background: url(../images/bg-papper.jpg);
+    
+}
+#promotions .bottom-border {
+    
+    width: 100%;
+    height: 10px;
+    background: url(../images/border-bg.jpg);
+    position: absolute;
+    bottom: 0;
+}
+#promotions ul {
+    list-style: none;
+}
+#promotions ul li {
+    display: inline-block;
+}
+#promotions ul li:nth-child(1) .promotion {
+    background: url(../images/border-bg.jpg);
+}
